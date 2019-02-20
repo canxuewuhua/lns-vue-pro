@@ -81,7 +81,10 @@
       </li>
     </ul>
     <h1>
-      <router-link to="day01">跳转至HelloVue</router-link>
+      <router-link to="day01/HelloVue">跳转至HelloVue</router-link>
+    </h1>
+    <h1>
+      <router-link to="day01/HelloTest">跳转至HelloTest</router-link>
     </h1>
   </div>
 </template>
