@@ -84,7 +84,10 @@
       <router-link to="day01/HelloVue">跳转至HelloVue</router-link>
     </h1>
     <h1>
-      <router-link to="day01/HelloTest">跳转至HelloTest</router-link>
+    <router-link to="day01/HelloTest">跳转至HelloTest</router-link>
+  </h1>
+    <h1>
+      <router-link to="day01/HelloSwitch">跳转至HelloSwitch</router-link>
     </h1>
   </div>
 </template>

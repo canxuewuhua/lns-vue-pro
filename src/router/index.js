@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import HelloVue from '@/components/day01/HelloVue'
 import HelloTest from '@/components/day01/HelloTest'
+import HelloSwitch from '@/components/day01/HelloSwitch'
 
 Vue.use(Router)
 
@@ -23,6 +24,12 @@ export default new Router({
       path: '/day01/HelloTest',
       name: 'HelloTest',
       component: HelloTest
+    }
+    ,
+    {
+      path: '/day01/HelloSwitch',
+      name: 'HelloSwitch',
+      component: HelloSwitch
     }
   ]
 })
