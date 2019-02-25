@@ -6,6 +6,7 @@ import HelloTest from '@/components/day01/HelloTest'
 import HelloSwitch from '@/components/day01/HelloSwitch'
 import HelloWatch from '@/components/day01/HelloWatch'
 import HelloFatherPage from '@/components/day01/HelloFatherPage'
+import HelloSlot from '@/components/day01/HelloSlot'
 
 Vue.use(Router)
 
@@ -44,6 +45,12 @@ export default new Router({
       path: '/day01/HelloFatherPage',
       name: 'HelloFatherPage',
       component: HelloFatherPage
+    }
+    ,
+    {
+      path: '/day01/HelloSlot',
+      name: 'HelloSlot',
+      component: HelloSlot
     }
   ]
 })

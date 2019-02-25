@@ -31,7 +31,6 @@
         </el-table-column>
       </el-table>
     </div>
-
   </el-card>
 </template>
 <script type="text/javascript">

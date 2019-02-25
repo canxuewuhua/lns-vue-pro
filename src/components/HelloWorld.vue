@@ -9,6 +9,14 @@
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloWatch">跳转至HelloWatch</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloFatherPage">跳转至HelloFatherPage</router-link></div></el-col>
     </el-row>
+    <el-row :gutter="24">
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSlot">跳转至HelloSlot</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+    </el-row>
 
   </div>
 </template>
@@ -51,7 +59,7 @@
   }
   .grid-content {
     border-radius: 4px;
-    min-height: 36px;
+    min-height: 30px;
   }
   .row-bg {
     padding: 10px 0;
