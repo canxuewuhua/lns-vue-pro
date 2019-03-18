@@ -3,11 +3,11 @@
     <h2>{{ msg }}</h2>
     <el-row :gutter="24">
       <el-col :span="4"><div class="grid-content bg-purple"> <span>Essential Links</span></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloVue">跳转至HelloVue</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloTest">跳转至HelloTest</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSwitch">跳转至HelloSwitch</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloWatch">跳转至HelloWatch</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloFatherPage">跳转至HelloFatherPage</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloFirst">数据双向绑定</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSecond">v-if的使用</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloVFor">v-for的使用</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloCompute">计算属性使用</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloWatch">监听属性使用</router-link></div></el-col>
     </el-row>
     <el-row :gutter="24">
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSlot">跳转至HelloSlot</router-link></div></el-col>

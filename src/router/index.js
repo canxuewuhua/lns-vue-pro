@@ -7,6 +7,10 @@ import HelloSwitch from '@/components/day01/HelloSwitch'
 import HelloWatch from '@/components/day01/HelloWatch'
 import HelloFatherPage from '@/components/day01/HelloFatherPage'
 import HelloSlot from '@/components/day01/HelloSlot'
+import HelloFirst from '@/components/day01/HelloFirst'
+import HelloSecond from '@/components/day01/HelloSecond'
+import HelloVFor from '@/components/day01/HelloVFor'
+import HelloCompute from '@/components/day01/HelloCompute'
 
 Vue.use(Router)
 
@@ -51,6 +55,30 @@ export default new Router({
       path: '/day01/HelloSlot',
       name: 'HelloSlot',
       component: HelloSlot
+    }
+    ,
+    {
+      path: '/day01/HelloFirst',
+      name: 'HelloFirst',
+      component: HelloFirst
+    }
+    ,
+    {
+      path: '/day01/HelloSecond',
+      name: 'HelloSecond',
+      component: HelloSecond
+    }
+    ,
+    {
+      path: '/day01/HelloVFor',
+      name: 'HelloVFor',
+      component: HelloVFor
+    }
+    ,
+    {
+      path: '/day01/HelloCompute',
+      name: 'HelloCompute',
+      component: HelloCompute
     }
   ]
 })
