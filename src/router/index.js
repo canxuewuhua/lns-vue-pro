@@ -11,6 +11,8 @@ import HelloFirst from '@/components/day01/HelloFirst'
 import HelloSecond from '@/components/day01/HelloSecond'
 import HelloVFor from '@/components/day01/HelloVFor'
 import HelloCompute from '@/components/day01/HelloCompute'
+import HelloLifeCycle from '@/components/day01/HelloLifeCycle'
+import HelloDeepWatch from '@/components/day01/HelloDeepWatch'
 
 Vue.use(Router)
 
@@ -79,6 +81,18 @@ export default new Router({
       path: '/day01/HelloCompute',
       name: 'HelloCompute',
       component: HelloCompute
+    }
+    ,
+    {
+      path: '/day01/HelloLifeCycle',
+      name: 'HelloLifeCycle',
+      component: HelloLifeCycle
+    }
+    ,
+    {
+      path: '/day01/HelloDeepWatch',
+      name: 'HelloDeepWatch',
+      component: HelloDeepWatch
     }
   ]
 })

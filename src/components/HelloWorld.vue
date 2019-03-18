@@ -2,16 +2,16 @@
   <div class="hello">
     <h2>{{ msg }}</h2>
     <el-row :gutter="24">
-      <el-col :span="4"><div class="grid-content bg-purple"> <span>Essential Links</span></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloFirst">数据双向绑定</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSecond">v-if的使用</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloVFor">v-for的使用</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloCompute">计算属性使用</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloWatch">监听属性使用</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloWatch">watch监听属性</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloDeepWatch">watch深度监听</router-link></div></el-col>
     </el-row>
     <el-row :gutter="24">
-      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSlot">跳转至HelloSlot</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"> <router-link to="day01/HelloLifeCycle">vue生命周期</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSwitch">HelloSwitch</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>

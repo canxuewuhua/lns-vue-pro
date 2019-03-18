@@ -5,16 +5,20 @@
         {{ site.name }}
       </li>
     </ol>
-    <ul>
-      <li v-for="n in 10">
-        {{ n }}
-      </li>
-    </ul>
-    <ul>
-      <li v-for="value in object">
-        {{ value }}
-      </li>
-    </ul>
+
+    <!--<ul>-->
+      <!--<li v-for="n in 10">-->
+        <!--{{ n }}-->
+      <!--</li>-->
+    <!--</ul>-->
+
+
+    <!--<ul>-->
+      <!--<li v-for="value in object">-->
+        <!--{{ value }}-->
+      <!--</li>-->
+    <!--</ul>-->
+
   </div>
 </template>
 
