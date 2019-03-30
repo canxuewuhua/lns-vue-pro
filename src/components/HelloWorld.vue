@@ -12,10 +12,10 @@
     <el-row :gutter="24">
       <el-col :span="4"><div class="grid-content bg-purple"> <router-link to="day01/HelloLifeCycle">vue生命周期</router-link></div></el-col>
       <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSwitch">HelloSwitch</router-link></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
-      <el-col :span="4"><div class="grid-content bg-purple"></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloSlot">HelloSlot</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/slot/SlotFather">SlotFather</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/slot/SlotFather2">SlotFather2</router-link></div></el-col>
+      <el-col :span="4"><div class="grid-content bg-purple"><router-link to="day01/HelloFatherPage">HelloFather$emit</router-link></div></el-col>
     </el-row>
 
   </div>

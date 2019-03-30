@@ -4,8 +4,11 @@
 # 1.npm install -g vue-cli
 # 2.使用命令 vue init webpack lns-vue-pro 搭建vue项目
 
-#在vue项目中需引入elementUI时，执行命令  npm i element-ui -S
+# 在vue项目中需引入elementUI时，执行命令  npm i element-ui -S
 
-#20190218 关闭eslint，（两种方法）1.file->settings->搜索ESlint->取消Enable的勾选 2.注释掉项目内的ESlint
+# 20190218 关闭eslint，（两种方法）1.file->settings->搜索ESlint->取消Enable的勾选 2.注释掉项目内的ESlint
 
-#v-if适合在条件不太可能变化时使用，v-show适合频繁切换
+# v-if适合在条件不太可能变化时使用，v-show适合频繁切换
+
+# 前端vue的知识可以在这个网址学习
+# https://cloud.tencent.com/developer/section/1489904

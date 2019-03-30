@@ -13,6 +13,8 @@ import HelloVFor from '@/components/day01/HelloVFor'
 import HelloCompute from '@/components/day01/HelloCompute'
 import HelloLifeCycle from '@/components/day01/HelloLifeCycle'
 import HelloDeepWatch from '@/components/day01/HelloDeepWatch'
+import SlotFather from '@/components/day01/slot/SlotFather'
+import SlotFather2 from '@/components/day01/slot/SlotFather2'
 
 Vue.use(Router)
 
@@ -93,6 +95,18 @@ export default new Router({
       path: '/day01/HelloDeepWatch',
       name: 'HelloDeepWatch',
       component: HelloDeepWatch
+    }
+    ,
+    {
+      path: '/day01/slot/SlotFather',
+      name: 'SlotFather',
+      component: SlotFather
+    }
+    ,
+    {
+      path: '/day01/slot/SlotFather2',
+      name: 'SlotFather2',
+      component: SlotFather2
     }
   ]
 })
